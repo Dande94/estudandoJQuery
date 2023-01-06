@@ -1,0 +1,107 @@
+Curso Front-End ZP - Modulo(7) jQuery
+
+jQuery framework de JS
+
+Aula 1  - explica sobre o que e aplicação jQuery;
+
+Aula 2 - Importação da biblioteca jQuery, diferença de comprimida(para aplicação) e descomprima(desenvolvimento), onde anexar o arquivo jQuery(no final do body e um arquivo JS abaixo, nesse arquivo JS codar o jQuery);
+
+Aula 3 - diferença entre $ e $();
+
+Aula 4 - função .ready();
+
+Aula 5 - como evitar conflito entre jQuery e outras bibliotecas;
+
+Aula 6 -Como selecionar elementos do HTML - $('tag do elemento aqui')/$('#id do elemento aqui')/$('.classe do elemento aqui') - sempre que usar esse tipo de seleção será retornado e forma de array(ou seja retornará todos com aqueles, com mesmo nome ou classe, ao procurar a existencia de um elemento com if(cuidar com o falso true, lembre de usar o .length > 0) ), na procura composta usar a mesma lógica do css -$('li.botao') irá selecionar dentro do li um que tiver a classe botao -, como alocar um elemmento dentro de uma váriavel, comenta sobre abrir um bloco de código pra só ser executado após o carregamento da página;
+
+Aula 7 - Como manipular atributos de uma tag - $('').attr('','') -;
+
+Aula 8 - Manipulação das tags - $('tag').html('o que eu quero adicionar')caso deixe vazio ele retorna o que tem dentro da tag - $('').find('') seleciona algo dentro de outro;
+
+Aula 9 - Manipular elementos, adicionando coisas antes e depois o dentro, -$('').text('') adicionar um texto diretamente no html -, como usar o .attr() para alterar o atributo id do elemento, -$('').width() manipular largura funciona também com height -, como adiconar um valor -$('').val() se deixa vazio ele capta o valor -,.after()adicionar antes do elemento  e .before()adicinar depois do elemento, .append()adicionar conteudo no final do elemento e .prepend()adicionar um conteudo no começo do elemento;
+
+Aula 10 - Alocou comandos jQuery dentro de váriaveis,ao armazanar um elemento dentro de uma váriavel usando JS, para envia-la para jQuery não precisa de aspas ao selecionalo $(div) no caso div é o nome da váriavel armazenada;
+
+Aula 11 - como usar .parent/.find/.closest/.eq para navegar e selecionar elementos dentro de um site;
+possivel usar todos os conceitos de seleção por tags ou id, e não so com class;
+conceito de hierarquia;
+
+Aula 12 - como usar addClass/.css, adicionar/remover/editar classes , aplicação de class com várias propriedades em elemento, Verificar a existência de class no elemento usando if() e .hasClass(), estizar elementos e tags;
+- .css('',''); -
+
+Aula 13 - Como armazenar dados anexados a tags e como armazenar dados associados a tags com  - .attr()aqui anexa a tag / .data() aqui associa a tag -
+
+Aula 14 - Utilização da função $.trim : para remover espaços em branco em algum elemento pra mostrar no console;
+
+Utilização do $.each() : para percorrer uma seleção com vários retornos e aplicar function a eles, porém há varias utilidades para o each;
+
+Utilização do $.isNumeric: pra saber se é number;
+--$.isArray = pra saber se é array;
+--$.isFunction = pra saber se é function;
+-- há varias outras;
+--retorna boolen;
+
+Utilização do $.type() : para descobrir o tipo do valor na váriavel;
+
+Aula 15 - aula que pra ver a existencia do elemento com if e .lenght>0;
+
+Aula 16 - aula que pra ver a existencia de uma classe com if e .hasClass();
+
+Aula 17 -  aula de aplicação de atributos que ativa e desativa inputs do form;
+
+Aula 18 - Nessa aula é explicado como capturar o valor dentro de um Select como deixa uma option ativa(usando find e 'selected','selected')  e a captura do valor com .val();
+
+Aula 19 - aula revisão de .eq(); pra selecionar um item dentro do array de seleção;
+
+Aula 20 - Nessa aula mostrou como pegar um objeto jQuery transforma em JS nativo e manipular;- $('li').ep(0) captura via jQuery - $('li').ep(0)[0] / $('li')[0] capturou via jQuery e liberou para acesso das funções nativas do JS  - ;
+
+Aula 21 - o Evento é uma reação do código a um determinado acontecimento!;
+
+Aula 22 - Nessa mostrou o uso de alguns eventos com botão (clique/mouse over/mouse out);
+*toggle* - muito interessante essa funcionalidade; faz alternancia de maneira automática, nessa aula ele usou .toggleClass();
+
+Aula 23 - Eventos de .hover(uni a as funções mouseover e mouseout)/toggleClass();
+
+Aula 24 - adicionando eventos : click/on/bind;(funcionam da mesma maneira, click tem a estrutura diferente);
+-removendo eventos : off/unbind;
+
+Aula 25 - Nessa aula xeplicou sobre uso da função .trigger(); basicamente um gatilho que dispara eventos baseado em um evento anteior;
+
+Aula 26 - Nessa aula explicou e exemplificou o uso do .preventDefault(), do .target, lembrou de usar a função auxiliar. Também mostrou como caracterizar uma ação dentro de uma função por meio do uso de parametro, a letra 'e' foi usada como parametro para ser acessada dentro da function, a letra 'e' ficou caracerizada como a ação do click, ou seja ela representa o submit;
+
+Aula 27 - Nessa aula explica sobre scroll(ao rolar o conteudo da página) e o resize(ao redimensionar o navegador), para que eles sirvão de gatilho e que seja aplicado um evento no browser;
+
+Aula 28 - nessa aula explicou novamente sobre submit com .preventDefault(Propriedades padrão do evento aula#26), e alguns tópicos novos como 'focus'(focar)/'blur'(desfocar)/'select'(selecionar)/'change'(algo mudou);
+
+Aula 29 -Nessa aula explicou sobre keyup/keydown para eventos; usou até JS puro para trazer o valor das teclas;
+mostrou um pouco da lógica de um chat;
+
+Aula 30 -
+Aula 31 -
+Aula 32 -
+Aula 33 -
+Aula 34 -
+Aula 35 -
+Aula 36 -
+Aula 37 -
+Aula 38 -
+Aula 39 -
+Aula 40 -
+Aula 41 -
+Aula 42 -
+Aula 43 -
+Aula 44 -
+Aula 45 -
+Aula 46 -
+Aula 47 -
+Aula 48 -
+Aula 49 -
+Aula 50 -
+Aula 51 -
+Aula 52 -
+Aula 53 -
+Aula 54 -
+Aula 55 -
+Aula 56 -
+Aula 57 -
+Aula 58 -

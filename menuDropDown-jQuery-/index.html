@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="Author" content="Anderson Nunes">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu dropdown com jQuery</title>
+</head>
+<style>
+body{
+    margin: 0;
+}
+.menu{   
+    height: 40px;
+    background-color: #444;
+    color: #EEE;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu1{
+    height: 40px;
+}
+.menu2{
+    position: absolute;
+    width: 80px;
+    height: 120px;
+    background-color: #444;
+    display: none;
+}
+li{
+    float: left;
+    padding: 0px 20px;
+    line-height: 40px;
+    cursor: pointer;
+}
+</style>
+<body>
+    <nav class="menu">
+        <ul>
+            <li>
+                <div class="menu1">Home</div>
+                <div class="menu2">
+                        Home1<br>
+                        Home2<br>
+                        Home3
+                </div>
+
+            </li>
+            <li>About</li>
+            <li>
+                <div class="menu1">Gallery</div>
+                <div class="menu2">
+                        Gallery1<br>
+                        Gallery2<br>
+                        Gallery3
+                </div>
+
+            </li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+</body>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</html>

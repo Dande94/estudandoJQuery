@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="Author" content="Anderson Nunes">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto: Galeria de Fotos com Lightbox</title>
+</head>
+<style>
+.bgBox{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+}
+.divBox{
+    position: fixed;
+    left: 35%;
+    top: 20%;
+    background-color: #FFF;
+    padding: 5px;
+    display: none;
+}
+.img{
+    max-width: 400px;
+    max-height: 400px;
+}
+.bntFechar{
+    position: relative;
+    top: 500;
+    left: 500;
+}
+
+</style>
+<body>
+
+    <a href="javascript:;" class="galeria"><img src="capitao-america.jpg" border="0" width="150" alt=""></a>
+    <a href="javascript:;" class="galeria"><img src="doutor-doom.jpg" border="0" width="150" alt=""></a>
+    <a href="javascript:;" class="galeria"><img src="capitao-america.png" border="0" width="150" alt=""></a>
+    <a href="javascript:;" class="galeria"><img src="doutor-doom.png" border="0" width="150" alt=""></a>
+    <!-- ao colocar 'javascript:;' dentro do href a tag <a> não executa -->
+        <div class="bgBox"></div>
+        <!-- bgBox será a tela escura que se sobrepõem  -->
+        <div class="divBox">
+            <img src="" class="img" border="0" width="100%" height="100%" alt="">
+            <button class="bntFechar">
+                <img src="cancel_close_delete_reject_remove_icon.png" width="15"  height="15" alt="">            
+            </button>
+        </div>
+        <!-- divbox será onde será inserdo a imagem -->
+</body>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</html>
